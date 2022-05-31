@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_lessons/lesson_1/main.dart';
-import 'package:flutter_lessons/lesson_2/calculator_page.dart';
+import 'package:flutter_lessons/lesson_3/lesson_3.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CalculatorPage(),
+      home: LessonThreePage(),
     );
   }
 }
